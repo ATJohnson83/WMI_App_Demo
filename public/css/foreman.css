@@ -1,0 +1,122 @@
+
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  letter-spacing: 5px;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	color: rgb(120,120,120);
+  text-decoration: none;
+  border-left: 2px solid #efefef;
+}
+
+nav a:hover{
+	text-decoration: none;
+	font-size: 115%;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+hr{
+	background-color:#000000;
+	border-width:0;
+	color:#000000;
+	height:2px;
+	line-height:0;
+	text-align:left;
+	width:100%;
+	}
+
+.brickbody {
+    background: url(../images/bricks-1.jpeg) no-repeat center;
+		margin: 0;
+		padding: 0;
+}
+
+.brckheader{
+	background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.8));
+	padding: 30px
+}
+
+.dropdown-toggle {
+	float: right;
+}
+
+.block {
+	background: rgb(200,0,0);
+	width: 30px;
+	height: 60px;
+	display: inline-block;
+	margin-left: 13px;
+	transform: rotate(-45deg);
+}
+
+.wm-title {
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	color: rgb(120,120,120);
+}
+
+.vmgmteditpanel{
+	background: rgba(248,248,248,.9);
+	margin-top: 100px;
+}
+
+.panel-heading {
+	background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.8));
+}
+
+@media only screen and (max-width: 375px) {
+	@-ms-viewport{
+    width: device-width, initial-scale=1, maximum-scale=1;
+	}
+	
+	.brckheader{
+		padding: 15px
+	}
+
+	.dropdown-menu-right{
+		position:absolute;
+		top:35px;
+		background: linear-gradient(rgb(200,200,200),rgb(248,248,248));
+	}
+
+	.brckheader{
+		height: 70px;
+	}
+
+	.logodiv {
+		position: absolute;
+		left: 150px;
+	}
+
+	.block {
+		width: 15px;
+		height: 30px;
+		display: inline-block;
+		margin-left: 5px;
+		transform: rotate(-45deg);
+	}
+
+	.wm-title {
+		display: none;
+	}
+
+	.vmgmteditpanel{
+		background: rgba(248,248,248,.9);
+		margin-top: 20px;
+	}
+}
+
+
+
+
+
+

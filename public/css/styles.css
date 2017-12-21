@@ -1,0 +1,349 @@
+html{
+	height: 100%;
+}
+
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  letter-spacing: 5px;
+  font-size: 20px;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	color: rgb(120,120,120);
+  text-decoration: none;
+  border-left: 2px solid #efefef;
+}
+
+nav a:hover{
+	text-decoration: none;
+	font-size: 150%;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+hr{
+	background-color:#000000;
+	border-width:0;
+	color:#000000;
+	height:2px;
+	line-height:0;
+	text-align:left;
+	width:100%;
+	}
+
+.mainbody {
+    background: url(../images/doug1.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.mgmtbody {
+    background: url(../images/doug2.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.brickbody {
+    background: url(../images/bricks-1.jpeg) no-repeat center;
+		margin: 0;
+		padding: 0;
+}
+
+.mgmtmenu {
+  background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.6));
+	/*height: 300px;*/
+	width: 100%;
+	margin-top: 100px;
+	padding: 50px;
+}
+
+.mgmt-report-image{
+		background: url(../images/reports1.jpg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding:0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-report-image a{
+	text-decoration: none;
+}
+
+.mgmt-job-image{
+		background: url(../images/doug3.jpeg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-job-image a{
+	text-decoration: none;
+}
+
+.mgmt-user-image{
+		background: url(../images/billy.jpeg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-user-image a{
+	text-decoration: none;
+}
+
+.mgmt-safety-image{
+		background: url(../images/safety.jpg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-safety-image a{
+	text-decoration: none;
+}
+
+.mgmt-task-image{
+		background: url(../images/todo-list.jpeg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-task-image a{
+	text-decoration: none;
+}
+
+.mgmt-est-image{
+		background: url(../images/ruler_blueprints.jpg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-est-image a{
+	text-decoration: none;
+}
+
+.mgmt-equip-image{
+		background: url(../images/equipment.jpg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-equip-image a{
+	text-decoration: none;
+}
+
+.mgmt-employees-image{
+		background: url(../images/nacho.jpeg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-employees-image a{
+	text-decoration: none;
+}
+
+.mgmt-links-image{
+		background: url(../images/mcaa.jpg) no-repeat center;
+		background-size: cover;
+		margin: 5px;
+		padding: 0;
+/*		margin-top: 100px;*/
+		height: 150px;
+		width: 30%;
+		margin-right: 30px;
+		border-radius: 5%;
+}
+.mgmt-links-image a{
+	text-decoration: none;
+}
+
+.pagecover {
+	background-color: rgba(248,248,248,0.25);
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+}
+
+
+.container {
+	height: 100%;
+	/*overflow: scroll;*/
+}
+
+.header{
+	background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.6));
+	padding: 30px;
+}
+
+.brckheader{
+	background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.8));
+	padding: 30px
+}
+
+.block {
+	background: rgb(200,0,0);
+	width: 30px;
+	height: 60px;
+	display: inline-block;
+	margin-left: 13px;
+	transform: rotate(-45deg);
+}
+
+
+.wm-title {
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	color: rgb(120,120,120);
+}
+
+.login {
+	background: rgba(248,248,248,.8);
+	margin-top: 100px;
+	padding : 0px 20px 30px;
+}
+
+
+.mgtlinks{
+	color: rgb(50,50,50);
+	font-weight: bold;
+	font-style: italic;
+	 /* Positioning */
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+
+  /* Box-model */
+  padding: 15px;
+  margin-bottom: 0;
+
+  line-height: 30px;
+
+  /* Typography */
+
+  text-align: center;
+  background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.8));
+
+  /* Visual */
+  border-bottom: 0;
+}
+
+.mgtlinks:hover {
+	font-size: 33px;
+	color: #23527c;
+}
+
+.jmgmteditpanel{
+	background: rgba(248,248,248,.9);
+	margin-top: 100px;
+	/*padding : 0px 20px 30px;*/
+}
+
+.umgmteditpanel{
+	background: rgba(248,248,248,.9);
+	margin-top: 100px;
+	/*padding : 0px 20px 30px;*/
+}
+
+.vmgmteditpanel{
+	background: rgba(248,248,248,.9);
+	margin-top: 100px;
+	/*padding : 0px 20px 30px;*/
+}
+
+
+.curview{
+	display: inline-block;
+}
+
+#showusers, #showjobs{
+	float: right;
+	display: inline-block;
+	background: linear-gradient(rgba(150,150,150,1),rgba(220,220,220,.5));
+	padding: 5px;
+	border-radius: 10%;
+}
+
+.rpbtns {
+	position: relative;
+	top: 25px;
+}
+
+.duserbtns, .djobbtns{
+	position: relative;
+	top: 15px;
+}
+
+.panel-heading {
+	background: linear-gradient(rgba(200,200,200,1),rgba(248,248,248,.8));
+}
+
+@media only screen and (max-width: 375px) {
+	/*.mainbody {
+    background: url(../images/bricks-1.jpeg) no-repeat center fixed;
+    background-size: cover;
+	}*/
+	
+	.header{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	}
+
+	.block {
+		width: 15px;
+		height: 30px;
+		display: inline-block;
+		margin-left: 5px;
+		transform: rotate(-45deg);
+	}
+
+	.wm-title{
+		font-size: 20px;
+		letter-spacing: 6px;
+	}
+
+}
+
+
+
